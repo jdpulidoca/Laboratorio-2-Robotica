@@ -13,12 +13,12 @@ A continuación, se presenta el trabajo realizado para el laboratorio número 2 
 |	Peso del robot	|	130 kg	|	98 kg	|
 |	Número de ejes (Grados de libertad)	|	6	|	6	|
 |	Rango de movimiento	|	---	| ---	|
-|	Eje 1 (Base)	|	±170°	|	±165°	|
-|	Eje 2 (Brazo inferior)	|	+155°/-90°	|	+110°/-110°	|
-|	Eje 3 (Brazo superior)	|	+250° /-175°	|	+70° /-160°	|
-|	Eje 4 (Muñeca rotación)	|	±190°	|	±200°	|
-|	Eje 5 (Muñeca flexión)	|	±135°	|	±115°	|
-|	Eje 6 (Muñeca giro)	|	±360°	|	±400°	|
+|	Eje 1 (Base S)	|	±170°	|	±165°	|
+|	Eje 2 (Brazo inferior L)	|	+155°/-90°	|	+110°/-110°	|
+|	Eje 3 (Brazo superior V)	|	+250° /-175°	|	+70° /-160°	|
+|	Eje 4 (Muñeca rotación R)	|	±190°	|	±200°	|
+|	Eje 5 (Muñeca flexión B)	|	±135°	|	±115°	|
+|	Eje 6 (Muñeca giro T)	|	±360°	|	±400°	|
 |	Velocidad máxima por eje	| ---	|	---	|
 |	Eje 1	|	180°/s	|	150°/s	|
 |	Eje 2	|	180°/s	|	120°/s	|
@@ -50,20 +50,19 @@ Acontinuacion se descipben las posiciones de Home1 y Home2 dispuesta para el man
   <p>Figura 4. Motoman MH6 Home2.</p>
 </div>
 
-|	Característica	|	Home 1	|	Home 2 |
-|	 ---	|	 ---	|	 ---	|
-|	Eje 1 (Base)	|	0°	|	0°	|
-|	Eje 2 (Brazo inferior)	|	0°	|	-90°	|
-|	Eje 3 (Brazo superior)	|	0°	|	-83°	|
-|	Eje 4 (Muñeca rotación)	|	0°	|	0°	|
-|	Eje 5 (Muñeca flexión)	|	0°	|	60°	|
-|	Eje 6 (Muñeca giro)	|	0°	|	0°	|
+|	Característica	|	Home2 (aprox) | Home2 (real)	|	Home1 (aprox)| Home1 (real)|
+|	 ---	|	 ---	|	 ---	|	 ---	|	 ---	|
+|	Eje 1 (Base S)	|	0° | 0°	| 0°	|	0°	|
+|	Eje 2 (Brazo inferior L)	|	0°	|-1.5665°|	90°	| 88.6629°|
+|	Eje 3 (Brazo superior V)	|	0°	|1.7135°|	-83°	| -81.0787° |
+|	Eje 4 (Muñeca rotación R)	|	0°	|0° |0°|	-0.0017°	|
+|	Eje 5 (Muñeca flexión B)	|	0°	|-0.1468°|	50°	| 51.7618°|
+|	Eje 6 (Muñeca giro T)	|	0°	|-3.2709°|	0°	|-3.2709°|
 
-En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realizar. Si se quiere transportar o mover el equipo, la propia empresa recomienda la posicion de Home2 ya que en esta poscion el manipulador ocupara el minimo espacio posible ademas de que su centro de mas se desplaza a la base del bot, lo que facilita su translado.
+En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realizar. Si se quiere transportar o mover el equipo, la propia empresa recomienda la posicion de Home2 ya que en esta poscion el manipulador ocupara el minimo espacio posible ademas de que su centro de mas se desplaza a la base del bot, lo que facilita su translado. En cuanto a la psocion Home1, es ideal para que un operacion pueda acceder y manipular la herramienta del manipulador, ademas de ser un punto de incio para cualquier rutina ya que parte de que todor los actuadores tienen un giro de 0°.
 
 
 <ul>  
-<li> Descripcion de las configuraciones home1 y home2 del Motoman MH6, indicando la posicion de cada articulacion, ¿Cual posicion es mejor?, justifique su respuesta
 <li> Procedimiento detallado para realizar movimientos manuales, especificando como cambiar entre modos de operacion (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
 <li> Explicacion completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y como identificar el nivel establecido en la interfaz del robot.
 <li> Descripcion de las principales funcionalidades de RoboDK, explicando como se comunica con el manipulador Motoman y que procesos realiza para ejecutar movimientos.
