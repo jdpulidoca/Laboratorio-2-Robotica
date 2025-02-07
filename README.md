@@ -72,15 +72,26 @@ En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realiz
 </ul>
 
 ## Principales funcionalidades de RoboDK
+
 <ul>
-<li> **Compatibilidad con múltiples marcas** – Soporta robots de ABB, KUKA, FANUC, Yaskawa, Universal Robots, entre otros.
-<li> **Programación offline** – Permite generar y simular programas sin necesidad de conectar un robot físico.
-<li> **Integración con CAD/CAM** – Compatible con software como SolidWorks, Fusion 360 y Mastercam para automatización en manufactura.
-<li> **Lenguajes de programación** – Soporta Python, G-code y lenguajes específicos de robots industriales.
-<li> **Post-procesadores personalizables** – Genera códigos específicos para cada marca de robot.
-<li> **Facilidad de uso** – Interfaz intuitiva que simplifica la simulación y programación de robots.
-<li> **Compatibilidad con visión artificial** – Se integra con cámaras y sistemas de inspección visual.
+<li> Compatibilidad con múltiples marcas: Soporta robots de ABB, KUKA, FANUC, Yaskawa, Universal Robots, entre otros.
+<li> Programación offline: Permite generar y simular programas sin necesidad de conectar un robot físico.
+<li> Integración con CAD/CAM: Compatible con software como SolidWorks, Fusion 360 y Mastercam para automatización en manufactura.
+<li> Lenguajes de programación: Soporta Python, G-code y lenguajes específicos de robots industriales.
+<li> Post-procesadores personalizables: Genera códigos específicos para cada marca de robot.
+<li> Facilidad de uso: Interfaz intuitiva que simplifica la simulación y programación de robots.
+<li> Compatibilidad con visión artificial: Se integra con cámaras y sistemas de inspección visual.
 </ul>
+
+## Comunicación de RoboDK con el robot
+
+Para poder correr scripts realizados en un proyecto de RoboDK, se debe hacer click en Connect > Connect Robot. Posteriormente se abrirá una visa en donde se debe colocar la dirección IP de la red del robot y su puerto. Finalmente se debe hacer click en el botón Connect, y cuando la conexión se haya establecido, se mostrará un cuadro verde que mostrara la palabra Ready. Este proceso se ilustra en la figura 5.
+
+<div align="center">
+  <img src="./Fotos/connect_robot.png" width="400" title="preview">
+  <p>Figura 5. Proceso de conexión de RoboDK con el robot.</p>
+</div>
+
 ## Comparación entre RoboDK y RobotStudio
 RoboDK y RobotStudio son dos herramientas potentes de programación fuera de linea y simulación de robots, sin embarbo, cada una responde a necesidades diferentes. RobotStudio está diseñado específicamente para robots ABB, mientras que RoboDK es compatible con múltiples marcas de robots.
 
