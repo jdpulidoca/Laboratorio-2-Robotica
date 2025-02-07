@@ -39,7 +39,7 @@ A continuación, se presenta el trabajo realizado para el laboratorio número 2 
 
 ### Motoman MH6: Home1 y Home2
 
-Acontinuacion se descipben las posiciones de Home1 y Home2 dispuesta para el manipulador Mmotoman MH6.
+En las figuras 3 y 4 se describen las posiciones de Home1 y Home2 dispuestas para el manipulador Motoman MH6.
 
 <div align="center">
   <img src="./Fotos/MH6Home1.jpeg" width="400" title="preview">
@@ -88,12 +88,16 @@ En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realiz
 Para poder correr scripts realizados en un proyecto de RoboDK, se debe hacer click en Connect > Connect Robot. Posteriormente se abrirá una visa en donde se debe colocar la dirección IP de la red del robot y su puerto. Finalmente se debe hacer click en el botón Connect, y cuando la conexión se haya establecido, se mostrará un cuadro verde que mostrara la palabra Ready. Este proceso se ilustra en la figura 5.
 
 <div align="center">
-  <img src="./Fotos/connect_robot.png" width="400" title="preview">
+  <img src="./Fotos/connect_robot.png" width="600" title="preview">
   <p>Figura 5. Proceso de conexión de RoboDK con el robot.</p>
 </div>
 
+## Funciones utilizadas para mover el robot
+
+Para mover el robot mediante código, se utiliza el RoboDK API. Para el caso de Python, se debe importar el sub-módulo robolink del paquete robodk. Este módulo contiene las funciones MoveJ y MoveL, las cuales corresponden al movimiento lineal o movimiento de articulaciones del robot. A ambas se les debe pasar mínimo un target, que puede ser un punto, una pose o una matriz con los valores de las variables de articulación deseados. Para más información se puede consultar la [documentación del paquete robodk](https://robodk.com/doc/en/PythonAPI/robodk.html).
+
 ## Comparación entre RoboDK y RobotStudio
-RoboDK y RobotStudio son dos herramientas potentes de programación fuera de linea y simulación de robots, sin embarbo, cada una responde a necesidades diferentes. RobotStudio está diseñado específicamente para robots ABB, mientras que RoboDK es compatible con múltiples marcas de robots.
+RoboDK y RobotStudio son dos herramientas potentes de programación fuera de linea y simulación de robots, sin embargo, cada una responde a necesidades diferentes. RobotStudio está diseñado específicamente para robots ABB, mientras que RoboDK es compatible con múltiples marcas de robots. En el siguiente cuadro comparativo se muestran las diferencias más relevantes entre los dos software.
 
 | Característica         | RoboDK                          | RobotStudio          |
 |------------------------|--------------------------------|----------------------|
@@ -106,3 +110,16 @@ RoboDK y RobotStudio son dos herramientas potentes de programación fuera de lin
 | **Precisión de simulación** | Alta precisión para múltiples marcas | Más precisa para robots ABB |
 | **Post-Procesadores** | Requiere configuración para cada marca | Preconfigurado para ABB |
 | **Precio**           | Pago con prueba gratuita      | Gratuito básico, pago para características avanzadas |
+
+## Trayectoria a realizar
+La trayectoria que va a seguir el TCP del manipulador, será la curva polar descrita por la ecuación
+
+$r = 1 - \cos{\theta} \sin{3\theta}$
+
+Donde el valor de $\theta$ irá desde $0$ hasta $2 \pi$, para formar la curva de la figura 6.
+
+
+<div align="center">
+  <img src="./Fotos/curva_polar.png" width="600" title="preview">
+  <p>Figura 6. Gráfica de la trayectoria polar que realizará el efector final.</p>
+</div>
