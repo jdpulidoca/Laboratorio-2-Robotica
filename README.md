@@ -1,6 +1,6 @@
-# Laboratorio-2-Robotica
+# Laboratorio 2: Análisis y operación del manipulador Motoman MH6: Comparativa y aplicaciones prácticas.
 
-Acontinuacion se presenta el trabajo realizado para el laboratorio numero 2 de la materia Robotica de la Univeridad Nacional de Colombia para le periodo 2024-II.
+A continuación, se presenta el trabajo realizado para el laboratorio número 2 de la materia Robótica de la Univeridad Nacional de Colombia para el periodo 2024-II.
 
 ### Motoman MH6 VS IRB 140
   
@@ -11,7 +11,7 @@ Acontinuacion se presenta el trabajo realizado para el laboratorio numero 2 de l
 |	Alcance máximo	|	1,422 mm	|	810 mm	|
 |	Repetibilidad	|	±0.08 mm	|	±0.01 mm	|
 |	Peso del robot	|	130 kg	|	98 kg	|
-|	Número de ejes (Grados de Libertad)	|	6	|	6	|
+|	Número de ejes (Grados de libertad)	|	6	|	6	|
 |	Rango de movimiento	|	---	| ---	|
 |	Eje 1 (Base)	|	±170°	|	±165°	|
 |	Eje 2 (Brazo inferior)	|	+155°/-90°	|	+110°/-110°	|
@@ -46,3 +46,18 @@ Acontinuacion se presenta el trabajo realizado para el laboratorio numero 2 de l
 <li> Codigo desarrollado en RoboDK para ejecutar una trayectoria polar, adjuntado como anexo dentro del repositorio.
 <li> Video de simulacion en RoboDK mostrando la trayectoria polar y evidencia de su implementaci´on en el manipulador Motoman de forma fısica, controlado desde el PC.
 </ul>
+
+# Comparación entre RoboDK y RobotStudio
+RoboDK y RobotStudio son dos herramientas potentes de programación fuera de linea y simulación de robots, sin embarbo, cada una responde a necesidades diferentes. RobotStudio está diseñado específicamente para robots ABB, mientras que RoboDK es compatible con múltiples marcas de robots.
+
+| Característica         | RoboDK                          | RobotStudio          |
+|------------------------|--------------------------------|----------------------|
+| **Fabricante**        | RoboDK (Independiente)         | ABB                  |
+| **Compatible con múltiples marcas** | Sí, es compatile con robots ABB, KUKA, FANUC, Yaskawa, UR, entre otros. | No, solo robots ABB  |
+| **Facilidad de uso**  | Interfaz intuitiva y fácil de aprender | Más complejo, con herramientas avanzadas |
+| **Programación offline** | Sí, para múltiples marcas | Sí, pero solo para ABB |
+| **Lenguajes de programación** | Python, G-code, y otros | RAPID (propietario de ABB) |
+| **Integración CAD/CAM** | Compatible con SolidWorks, Fusion 360, Mastercam, etc. | Integración limitada con CAD |
+| **Precisión de simulación** | Alta precisión para múltiples marcas | Más precisa para robots ABB |
+| **Post-Procesadores** | Requiere configuración para cada marca | Preconfigurado para ABB |
+| **Precio**           | Pago con prueba gratuita      | Gratuito básico, pago para características avanzadas |
