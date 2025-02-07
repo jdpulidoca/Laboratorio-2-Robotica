@@ -71,7 +71,17 @@ En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realiz
 <li> Video de simulacion en RoboDK mostrando la trayectoria polar y evidencia de su implementaci´on en el manipulador Motoman de forma fısica, controlado desde el PC.
 </ul>
 
-# Comparación entre RoboDK y RobotStudio
+## Principales funcionalidades de RoboDK
+<ul>
+<li> **Compatibilidad con múltiples marcas** – Soporta robots de ABB, KUKA, FANUC, Yaskawa, Universal Robots, entre otros.
+<li> **Programación offline** – Permite generar y simular programas sin necesidad de conectar un robot físico.
+<li> **Integración con CAD/CAM** – Compatible con software como SolidWorks, Fusion 360 y Mastercam para automatización en manufactura.
+<li> **Lenguajes de programación** – Soporta Python, G-code y lenguajes específicos de robots industriales.
+<li> **Post-procesadores personalizables** – Genera códigos específicos para cada marca de robot.
+<li> **Facilidad de uso** – Interfaz intuitiva que simplifica la simulación y programación de robots.
+<li> **Compatibilidad con visión artificial** – Se integra con cámaras y sistemas de inspección visual.
+</ul>
+## Comparación entre RoboDK y RobotStudio
 RoboDK y RobotStudio son dos herramientas potentes de programación fuera de linea y simulación de robots, sin embarbo, cada una responde a necesidades diferentes. RobotStudio está diseñado específicamente para robots ABB, mientras que RoboDK es compatible con múltiples marcas de robots.
 
 | Característica         | RoboDK                          | RobotStudio          |
