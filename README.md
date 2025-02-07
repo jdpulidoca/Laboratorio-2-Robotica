@@ -4,21 +4,36 @@
   
 |	Característica	|	Motoman MH6	|	ABB IRB 140	|
 |	 ---	|	 ---	|	 ---	|
-|	Fabricante	|	Yaskawa (Motoman)	|	ABB	|
-|	Carga útil	|	6 kg	|	6 kg	|
+|	Fabricante	|	Yaskawa	|	ABB	|
+|	Carga útil máxima	|	6 kg	|	6 kg	|
 |	Alcance máximo	|	1,422 mm	|	810 mm	|
-|	Grados de libertad	|	6 ejes	|	6 ejes	|
 |	Repetibilidad	|	±0.08 mm	|	±0.01 mm	|
-|	Peso	|	130 kg	|	98 kg	|
-|	Montaje	|	Piso, pared o techo	|	Piso, pared, invertido	|
-|	Velocidad del eje 1	|	180°/s	|	150°/s	|
-|	Velocidad del eje 2	|	180°/s	|	120°/s	|
-|	Velocidad del eje 3	|	180°/s	|	140°/s	|
-|	Velocidad del eje 4	|	400°/s	|	280°/s	|
-|	Velocidad del eje 5	|	400°/s	|	280°/s	|
-|	Velocidad del eje 6	|	600°/s	|	280°/s	|
-|	Controlador	|	DX100 o DX200	|	IRC5 Compact	|
-|	Aplicaciones típicas	|	Soldadura, manipulación, ensamblaje	|	Manipulación, ensamblaje, soldadura	|
+|	Peso del robot	|	130 kg	|	98 kg	|
+|	Número de ejes	|	6	|	6	|
+|	Rango de movimiento	|		|		|
+|	- Eje 1 (Base)	|	±170°	|	±165°	|
+|	- Eje 2 (Brazo inferior)	|	+155°/-90°	|	+110°/-110°	|
+|	- Eje 3 (Brazo superior)	|	+250° /-175°	|	+70° /-160°	|
+|	- Eje 4 (Muñeca rotación)	|	±190°	|	±200°	|
+|	- Eje 5 (Muñeca flexión)	|	±135°	|	±115°	|
+|	- Eje 6 (Muñeca giro)	|	±360°	|	±400°	|
+|	Velocidad máxima por eje	|		|		|
+|	- Eje 1	|	180°/s	|	150°/s	|
+|	- Eje 2	|	180°/s	|	120°/s	|
+|	- Eje 3	|	180°/s	|	140°/s	|
+|	- Eje 4	|	400°/s	|	280°/s	|
+|	- Eje 5	|	400°/s	|	280°/s	|
+|	- Eje 6	|	600°/s	|	280°/s	|
+|	Controlador	|	DX100, DX200	|	IRC5 Compact	|
+|	Tipo de montaje	|	Piso, pared, techo, invertido	|	Piso, pared, invertido	|
+|	Estructura mecánica	|	Brazo articulado	|	Brazo articulado	|
+|	Protección ambiental	|	IP54 (cuerpo), IP67 (muñeca)	|	IP67 (cuerpo y muñeca)	|
+|	Temperatura de operación	|	0°C - 45°C	|	0°C - 45°C	|
+|	Fuente de alimentación	|	200-230V, trifásico	|	200-600V, trifásico	|
+|	Consumo de energía	|	Aproximadamente 1.5 kVA	|	Aproximadamente 1.2 kVA	|
+|	Compatibilidad con sensores	|	Sí (visión artificial, encoders adicionales)	|	Sí (visión, force control)	|
+|	Software de programación	|	MotoSim, INFORM Language	|	RobotStudio, RAPID Language	|
+|	Aplicaciones principales	|	Soldadura, manipulación, ensamblaje	|	Ensamblaje, manipulación, soldadura, pick & place	|
 
   
 <li> Descripcion de las configuraciones home1 y home2 del Motoman MH6, indicando la posicion de cada articulacion, ¿Cual posicion es mejor?, justifique su respuesta
