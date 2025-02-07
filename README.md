@@ -37,6 +37,31 @@ A continuación, se presenta el trabajo realizado para el laboratorio número 2 
 |	Software de programación	|	MotoSim, RoboDK, INFORM Language	|	RobotStudio, RAPID Language	|
 |	Aplicaciones principales	|	Soldadura, manipulación, ensamblaje	|	Ensamblaje, manipulación, soldadura, pick & place	|
 
+### Motoman MH6: Home1 y Home2
+
+Acontinuacion se descipben las posiciones de Home1 y Home2 dispuesta para el manipulador Mmotoman MH6.
+
+<div align="center">
+  <img src="./Fotos/MH6Home1.jpeg" width="400" title="preview">
+  <p>Figura 3. Motoman MH6 Home1.</p>
+</div>
+<div align="center">
+  <img src="./Fotos/MH6Home2.jpeg" width="400" title="preview">
+  <p>Figura 4. Motoman MH6 Home2.</p>
+</div>
+
+|	Característica	|	Home 1	|	Home 2 |
+|	 ---	|	 ---	|	 ---	|
+|	Eje 1 (Base)	|	0°	|	0°	|
+|	Eje 2 (Brazo inferior)	|	0°	|	-90°	|
+|	Eje 3 (Brazo superior)	|	0°	|	-83°	|
+|	Eje 4 (Muñeca rotación)	|	0°	|	0°	|
+|	Eje 5 (Muñeca flexión)	|	0°	|	60°	|
+|	Eje 6 (Muñeca giro)	|	0°	|	0°	|
+
+En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realizar. Si se quiere transportar o mover el equipo, la propia empresa recomienda la posicion de Home2 ya que en esta poscion el manipulador ocupara el minimo espacio posible ademas de que su centro de mas se desplaza a la base del bot, lo que facilita su translado.
+
+
 <ul>  
 <li> Descripcion de las configuraciones home1 y home2 del Motoman MH6, indicando la posicion de cada articulacion, ¿Cual posicion es mejor?, justifique su respuesta
 <li> Procedimiento detallado para realizar movimientos manuales, especificando como cambiar entre modos de operacion (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
