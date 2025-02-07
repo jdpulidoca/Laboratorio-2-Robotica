@@ -1,5 +1,7 @@
 # Laboratorio-2-Robotica
 
+Acontinuacion se presenta el trabajo realizado para el laboratorio numero 2 de la materia Robotica de la Univeridad Nacional de Colombia para le periodo 2024-II.
+
 ### Motoman MH6 VS IRB 140
   
 |	Característica	|	Motoman MH6	|	IRB 140	|
