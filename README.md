@@ -120,6 +120,6 @@ Donde el valor de $\theta$ irá desde $0$ hasta $2 \pi$, para formar la curva de
 
 
 <div align="center">
-  <img src="./Fotos/curva_polar.png" width="600" title="preview">
+  <img src="./Fotos/polar_curve.png" width="600" title="preview">
   <p>Figura 6. Gráfica de la trayectoria polar que realizará el efector final.</p>
 </div>
