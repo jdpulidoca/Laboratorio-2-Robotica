@@ -43,15 +43,15 @@ A continuación, se presenta el trabajo realizado para el laboratorio número 2 
 
 ### Motoman MH6: Home1 y Home2
 
-En las figuras 3 y 4 se describen las posiciones de Home1 y Home2 dispuestas para el manipulador Motoman MH6.
+En las figuras 1 y 2 se describen las posiciones de Home1 y Home2 dispuestas para el manipulador Motoman MH6.
 
 <div align="center">
   <img src="./Fotos/MH6Home1.jpeg" width="400" title="preview">
-  <p>Figura 3. Motoman MH6 Home1.</p>
+  <p>Figura 1. Motoman MH6 Home1.</p>
 </div>
 <div align="center">
   <img src="./Fotos/MH6Home2.jpeg" width="400" title="preview">
-  <p>Figura 4. Motoman MH6 Home2.</p>
+  <p>Figura 2. Motoman MH6 Home2.</p>
 </div>
 
 |	Característica	|	Home2 (aprox) | Home2 (real)	|	Home1 (aprox)| Home1 (real)|
@@ -67,14 +67,14 @@ En cuanto a la mejor posoción de home, ésta dependerá de lo que se quiera rea
 
 <div align="center">
   <img src="./Fotos/Trans.PNG" width="400" title="preview">
-  <p>Figura 5. Recomedacion de transporte Motoman MH6 [1].</p>
+  <p>Figura 3. Recomedacion de transporte Motoman MH6 [1].</p>
 </div>
 
 
 
 ## Uso del TeachPendant del Motoman MH6
 
-El control manual del robot puede realizar de forma local o remota, siendo la forma remota mediante software como RoboDK y de forma local mediante el Teach Pendant de su correspondiente unidad de control. Primeramente, en la esquina superior izquierda del Teach Pendant se encuentra la llave (ver figura 7), en donde se puede seleccionar el modo de operación del robot. Los modos de operación posible son:
+El control manual del robot puede realizar de forma local o remota, siendo la forma remota mediante software como RoboDK y de forma local mediante el Teach Pendant de su correspondiente unidad de control. Primeramente, en la esquina superior izquierda del Teach Pendant se encuentra la llave (ver figura 5), en donde es posible seleccionar el modo de operación del robot. Los modos de operación posible son:
 
 <ul>  
 <li> Remote: Permite control el Motoman desde equipos remotos.
@@ -84,24 +84,24 @@ El control manual del robot puede realizar de forma local o remota, siendo la fo
 
 <div align="center">
   <img src="./Fotos/teach0.PNG" width="400" title="preview">
-  <p>Figura 6. TeachPendant Motoman MH6.</p>
+  <p>Figura 4. TeachPendant Motoman MH6.</p>
 </div>
 
 <div align="center">
   <img src="./Fotos/teach4.PNG" width="400" title="preview">
-  <p>Figura 7. Llave Modo de operacion.</p>
+  <p>Figura 5. Llave Modo de operacion.</p>
 </div>
 
-Se selecciona el modo Teach para poder realizar el control manual. En la figura 9, se observan resaltados 2 iconos en la esquina superior derecha, éstos corresponden al sistema de referencia y a la velocidad del Motoman.
+Se selecciona el modo Teach para poder realizar el control manual. En la figura 7, se observan resaltados 2 iconos en la esquina superior derecha, éstos corresponden al sistema de referencia y a la velocidad del Motoman.
 
 <div align="center">
   <img src="./Fotos/teach1.jpeg" width="400" title="preview">
-  <p>Figura 8. Pantalla TeachPendant Motoman MH6.</p>
+  <p>Figura 6. Pantalla TeachPendant Motoman MH6.</p>
 </div>
 
 <div align="center">
   <img src="./Fotos/teach5.PNG" width="400" title="preview">
-  <p>Figura 9. Iconos TeachPendant Motoman MH6.</p>
+  <p>Figura 7. Iconos TeachPendant Motoman MH6.</p>
 </div>
 
 En primera instancia, se elige el sistema de coordenadas con el cual se desee trabajar. El Motoman ofrece la opción de seleccionar alguno los siguientes marcos de referencia:
@@ -116,14 +116,14 @@ En primera instancia, se elige el sistema de coordenadas con el cual se desee tr
 
 <div align="center">
   <img src="./Fotos/siscor.PNG" width="400" title="preview">
-  <p>Figura 10. Sistemas de Coordenadas disponibles y sus iconos.</p>
+  <p>Figura 8. Sistemas de Coordenadas disponibles y sus iconos.</p>
 </div>
 
-Para realizar el cambio de sistemas de coordenadas, se oprime el boton Coord (figura 11) el cual está ubicado debajo de la pantalla del Teach Pendant. Éste se debe presionar de forma constante hasta que el icono que aparezca en pantalla sea el requerido.
+Para realizar el cambio de sistemas de coordenadas, se oprime el boton Coord (figura 9) el cual está ubicado debajo de la pantalla del Teach Pendant. Éste se debe presionar de forma constante hasta que el icono que aparezca en pantalla sea el requerido.
 
 <div align="center">
   <img src="./Fotos/teach6.PNG" width="400" title="preview">
-  <p>Figura 11. Boton Coord .</p>
+  <p>Figura 9. Boton Coord .</p>
 </div>
 
 Referente a la velocidad de movimiento, su icono aparece al lado del de sistema de coordenadas del Teach Pendant. El Motoman permite seleccionar los siguientes niveles de velocidadad:
@@ -137,35 +137,35 @@ Referente a la velocidad de movimiento, su icono aparece al lado del de sistema 
 
 <div align="center">
   <img src="./Fotos/sped.PNG" width="400" title="preview">
-  <p>Figura 12. Niveles de velocidad y sus iconos.</p>
+  <p>Figura 10. Niveles de velocidad y sus iconos.</p>
 </div>
 
-Para realizar el cambio de velocidades, se hace con los botones Fast y Slow (figura 13) en la mitad del del Teach Pendant. El botón Fast eleva el nivel de velocidad y Slow lo disminuye, éste cambio se ve reflejado en los iconos de la pantalla.
+Para realizar el cambio de velocidades, se hace con los botones Fast y Slow (figura 11) en la mitad del del Teach Pendant. El botón Fast eleva el nivel de velocidad y Slow lo disminuye, éste cambio se ve reflejado en los iconos de la pantalla.
 
 <div align="center">
   <img src="./Fotos/teach7.jpg" width="400" title="preview">
-  <p>Figura 13. Botones Fast/Slow.</p>
+  <p>Figura 11. Botones Fast/Slow.</p>
 </div>
 
-Para realizar el movimiento del robot se debe elegir alguno de los sistemas de coordenadas y la velocidad. Ademas, revisar que el boton de emergencia este desactivado y el operario este accionando el boton de hombre muerto en el Teachpendant. Y por ultimo, accionar el boton de Servo On Ready (figura 14), para encender los servomotores del Motoman.
+Para realizar el movimiento del robot se debe elegir alguno de los sistemas de coordenadas y la velocidad. Ademas, revisar que el boton de emergencia este desactivado y el operario este accionando el boton de hombre muerto en el Teachpendant. Y por ultimo, accionar el boton de Servo On Ready (figura 12), para encender los servomotores del Motoman.
 
 <div align="center">
   <img src="./Fotos/teach8.PNG" width="400" title="preview">
-  <p>Figura 14. Boton Servo On Ready.</p>
+  <p>Figura 12. Boton Servo On Ready.</p>
 </div>
 
-Independendiente del sistema de coordenadas, el Teachpendant dispone de un juego de botones (figura 15) para el increemento y decremento de cada variable implicada en movimiento del Motoman.
+Independendiente del sistema de coordenadas, el Teachpendant dispone de un juego de botones (figura 13) para el increemento y decremento de cada variable implicada en movimiento del Motoman.
 
 <div align="center">
   <img src="./Fotos/teach2.jpeg" width="400" title="preview">
-  <p>Figura 15. Controles Movimiento.</p>
+  <p>Figura 13. Controles Movimiento.</p>
 </div>
 
-En caso de trabajar con el movimiento de articulaciones o Joint Coordinates, cada par de botones corresponderá al movimiento articular de cada servomotor según la convención dada por Yaskawa (ver figura 16). La letra asignada a cada articulación está escrita en la parte inferior del botón en letras pequeñas, junto a su respectivo sentido de giro. Cabe señalar que se dispone de dos pares adicionales de botones de control. Estos poseen una forma circular: los denominados E corresponden a la línea sobre la cual se desplaza todo el Motoman, y los denominados 8 corresponden a un eje de articulación adicional que se puede configurar, ya sea en el manipulador o en un mecanismo auxiliar.
+En caso de trabajar con el movimiento de articulaciones o Joint Coordinates, cada par de botones corresponderá al movimiento articular de cada servomotor según la convención dada por Yaskawa (ver figura 14). La letra asignada a cada articulación está escrita en la parte inferior del botón en letras pequeñas, junto a su respectivo sentido de giro. Cabe señalar que se dispone de dos pares adicionales de botones de control. Estos poseen una forma circular: los denominados E corresponden a la línea sobre la cual se desplaza todo el Motoman, y los denominados 8 corresponden a un eje de articulación adicional que se puede configurar, ya sea en el manipulador o en un mecanismo auxiliar.
 
 <div align="center">
   <img src="./Fotos/Art.PNG" width="400" title="preview">
-  <p>Figura 16. Articulaciones del Motoman MH6 [1].</p>
+  <p>Figura 14. Articulaciones del Motoman MH6 [1].</p>
 </div>
 
 En el caso de trabajar con el movimiento de la herramienta o Cartesian Coordinates, los botones de articulaciones pasan a controlar movimientos de traslación y rotación en torno al sistema de coordenadas XYZ. Los botones de movimiento traslacional están al lado izquierdo del Teach Pendant. Estos botones tienen escrito en letras grandes el eje de coordenadas correspondiente y, en la parte superior, indican si generan un incremento o decremento. Los botones de movimiento rotacional están al lado derecho del Teach Pendant. Tienen la misma escritura que los botones cartesianos, con la diferencia de que, encima de las letras, hay una flecha que indica la dirección de giro.
