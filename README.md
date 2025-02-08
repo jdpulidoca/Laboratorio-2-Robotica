@@ -117,14 +117,14 @@ En primera instancia, se elige el sistema de coordenadas con el cual se desee tr
   <p>Figura 10. Sistemas de Coordenadas disponibles y sus iconos.</p>
 </div>
 
-Para realizar el cambio de sistemas de coordenadas, se hace con el boton Coord (figura 11) el cual esta debajo de la pantalla del Teachpendant. Este se debe presionar de forma constante hasta que el icono que aparezca en pantalla sea el requerido.
+Para realizar el cambio de sistemas de coordenadas, se oprime el boton Coord (figura 11) el cual está ubicado debajo de la pantalla del Teach Pendant. Éste se debe presionar de forma constante hasta que el icono que aparezca en pantalla sea el requerido.
 
 <div align="center">
   <img src="./Fotos/teach6.PNG" width="400" title="preview">
   <p>Figura 11. Boton Coord .</p>
 </div>
 
-En cuanto a la velocidad de movimiento, su icono aparece al lado del de sistema de coordenadas del Teachpendant. El Motoman ofrece la siguienets velocidades:
+Referente a la velocidad de movimiento, su icono aparece al lado del de sistema de coordenadas del Teach Pendant. El Motoman permite seleccionar los siguientes niveles de velocidadad:
 
 <ul>  
 <li> Inching: Se usa para mover el robot en pequeñas cantidades manualmente. Generalmente, permite movimientos de 0.1° a 1° por pulsación. Es útil para ajustes finos en posiciones críticas.
@@ -133,13 +133,12 @@ En cuanto a la velocidad de movimiento, su icono aparece al lado del de sistema 
 <li> High Speed: Velocidad máxima del robot dependiendo de la configuración y limitaciones, se usa solo en modo automático (Auto Mode) cuando el robot está en producción. Puede alcanzar hasta 100% de la velocidad programada.
 </ul>
 
-
 <div align="center">
   <img src="./Fotos/sped.PNG" width="400" title="preview">
   <p>Figura 12. Niveles de velocidad y sus iconos.</p>
 </div>
 
-Para realizar el cambio de velocidades, se hace con los botones Fast y Slow (figura 13) en la mitad del del Teachpendant. Fast eleva el nivel de velocidad y Slow la disminuye, este cambio se ve reflejado en los iconos de la pantalla.
+Para realizar el cambio de velocidades, se hace con los botones Fast y Slow (figura 13) en la mitad del del Teach Pendant. El botón Fast eleva el nivel de velocidad y Slow lo disminuye, éste cambio se ve reflejado en los iconos de la pantalla.
 
 <div align="center">
   <img src="./Fotos/teach7.jpg" width="400" title="preview">
