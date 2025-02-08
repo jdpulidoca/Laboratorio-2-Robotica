@@ -64,6 +64,12 @@ En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realiz
 ## Uso del TeachPendant del Motoman MH6
 
 Procedimiento detallado para realizar movimientos manuales, especificando como cambiar entre modos de operacion (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
+
+<div align="center">
+  <img src="./Fotos/teach2.jpeg" width="400" title="preview">
+  <p>Figura 4. TeachPendant Motoman MH6.</p>
+</div>
+
 <ul>  
 
 <li> Explicacion completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y como identificar el nivel establecido en la interfaz del robot.
