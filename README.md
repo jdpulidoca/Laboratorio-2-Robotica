@@ -72,8 +72,13 @@ En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realiz
 
 Procedimiento detallado para realizar movimientos manuales, especificando como cambiar entre modos de operacion (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
 
-En caunto al control manual, este puede realizar de forma local o remota, siendo de forma remota mediante softwares como RoboDK y de froma local mediante el teachpendant de su unidad de control
+En caunto al control manual, este puede realizar de forma local o remota, siendo de forma remota mediante softwares como RoboDK y de froma local mediante el teachpendant de su unidad de control. En primera instacia, en la esquina superior izquierda del Teachpendant esta la llave (ver figura 7) donde se puede seleccionar el modo de operacion del robot sieno estos modos:
 
+<ul>  
+<li> Remote: Permite control el Motoman desde equipos remotos.
+<li> Play: Corre programas precargados en el Teachpendnat.
+<li> Teach: Permite el control manual del Motoman meidnate el Teachpendnat.
+</ul>
 
 <div align="center">
   <img src="./Fotos/teach0.PNG" width="400" title="preview">
@@ -81,24 +86,28 @@ En caunto al control manual, este puede realizar de forma local o remota, siendo
 </div>
 
 <div align="center">
+  <img src="./Fotos/teach4.PNG" width="400" title="preview">
+  <p>Figura 7. Llave Modo de operacion.</p>
+</div>
+
+Se selecciona el modo Teach para poder realizar el control manual. En la figura 9, podemos ver resaltados 2 iconos en la esquina superior derecha, estos corresponde al sistema de referencia y la velocidad del Motoman.
+
+<div align="center">
   <img src="./Fotos/teach1.jpeg" width="400" title="preview">
-  <p>Figura 7. Pantalla TeachPendant Motoman MH6.</p>
+  <p>Figura 8. Pantalla TeachPendant Motoman MH6.</p>
+</div>
+
+<div align="center">
+  <img src="./Fotos/teach5.PNG" width="400" title="preview">
+  <p>Figura 9. Iconos TeachPendant Motoman MH6.</p>
 </div>
 
 <div align="center">
   <img src="./Fotos/teach2.jpeg" width="400" title="preview">
-  <p>Figura 8. Teclado TeachPendant Motoman MH6.</p>
-</div>
-
-<div align="center">
-  <img src="./Fotos/teach4.jpeg" width="400" title="preview">
   <p>Figura 9. Teclado TeachPendant Motoman MH6.</p>
 </div>
 
-<div align="center">
-  <img src="./Fotos/teach5.jpeg" width="400" title="preview">
-  <p>Figura 10. Articualciones Motoman MH6 [1].</p>
-</div>
+
 
 <div align="center">
   <img src="./Fotos/Art.PNG" width="400" title="preview">
