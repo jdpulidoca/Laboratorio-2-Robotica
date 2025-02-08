@@ -146,19 +146,25 @@ Para realizar el cambio de velocidades, se hace con los botones Fast y Slow (fig
   <p>Figura 13. Botones Fast/Slow.</p>
 </div>
 
-Para realizar el movimiento del robot se debe elegir alguno de los sistemas de coordenadas y la velocidad. Ademas, revisar que el boton de emercgencia este desactivido y el operario este accionando el boton de hombre muerto en el Teachpendant. 
+Para realizar el movimiento del robot se debe elegir alguno de los sistemas de coordenadas y la velocidad. Ademas, revisar que el boton de emergencia este desactivado y el operario este accionando el boton de hombre muerto en el Teachpendant. Y por ultimo, accionar el boton de Servo On Ready (figura 14), para encender los servomotores del Motoman.
 
+<div align="center">
+  <img src="./Fotos/teach8.PNG" width="400" title="preview">
+  <p>Figura 14. Boton Servo On Ready.</p>
+</div>
 
-En caso de trabajar con el sistemas de Coordenadas de la articulacion o Joint, el Teachpendant dispone de un juego de botones (figura 14) para el increemento y decremento de cada articulacion, correspondiendo con las articulaciones de la figura 15. Cada boton pos
+Independendiente del sistema de coordenadas, el Teachpendant dispone de un juego de botones (figura 15) para el increemento y decremento de cada variable implicada en movimiento del Motoman.
 
 <div align="center">
   <img src="./Fotos/teach2.jpeg" width="400" title="preview">
-  <p>Figura 14. Controles Joint Coordinates.</p>
+  <p>Figura 15. Controles Movimiento.</p>
 </div>
+
+En acaso de trabajar moviemiento de articulaciones o Joint Coordinates, cada para de botones correspondara con el movimiento articular de cada servomotor segun la convencion dada por Yaskawa (ver figura 16). En donde, la letra asignada a cada articulacion esta escrita en la parte inferior del boton en letras pequeñas, junto a su respectivo sentido de giro.
 
 <div align="center">
   <img src="./Fotos/Art.PNG" width="400" title="preview">
-  <p>Figura 15. Articulaciones Motoman MH6 [1].</p>
+  <p>Figura 16. Articulaciones Motoman MH6 [1].</p>
 </div>
 
 
