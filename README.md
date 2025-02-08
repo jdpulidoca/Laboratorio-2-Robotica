@@ -160,18 +160,14 @@ Independendiente del sistema de coordenadas, el Teachpendant dispone de un juego
   <p>Figura 15. Controles Movimiento.</p>
 </div>
 
-En acaso de trabajar moviemiento de articulaciones o Joint Coordinates, cada para de botones correspondara con el movimiento articular de cada servomotor segun la convencion dada por Yaskawa (ver figura 16). En donde, la letra asignada a cada articulacion esta escrita en la parte inferior del boton en letras pequeñas, junto a su respectivo sentido de giro.
+En acaso de trabajar moviemiento de articulaciones o Joint Coordinates, cada para de botones correspondara con el movimiento articular de cada servomotor segun la convencion dada por Yaskawa (ver figura 16). En donde, la letra asignada a cada articulacion esta escrita en la parte inferior del boton en letras pequeñas, junto a su respectivo sentido de giro. Cabe señalara que se dispone de 2 pares adicionales de botones de control, estos poseen una forma circular, los denominados E corresponde a linaea sobre la cual se desplaza todo el Motoman y los denominados 8, corresponde aun ejer de articulacion adicional que se puede configurar ya sea en el manipulador o en un mecanismo auxiliar.
 
 <div align="center">
   <img src="./Fotos/Art.PNG" width="400" title="preview">
   <p>Figura 16. Articulaciones Motoman MH6 [1].</p>
 </div>
 
-
-<ul>  
-
-<li> Explicacion completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y como identificar el nivel establecido en la interfaz del robot.
-</ul>
+En el caso de trabajar con el moviemiento de la herramienta o Cartesian Coordinates, los botones de articulacines pasan a ser de movimiento atranslaciones y rotacion entorno al sistemas de cordenadas XYZ. Los botones de movimiento translacional estan al aldo izquierdo del Taecahpendant, estos botones tienen escrito con letras grandes, el correspondiente eje coordenado y si da incremento o decremento, en la parte superior del boton. Los botones de movimiento rotacion estan al aldo derecho del Taecahpendant, estos botones tienen tiene la misma escritura que los cartesianos sobre los botones, con la difrencia que encima de las lestras hay una fecha que indica la direccion de giro.
 
 ## Principales funcionalidades de RoboDK
 
