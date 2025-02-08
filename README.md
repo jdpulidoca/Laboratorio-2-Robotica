@@ -74,19 +74,35 @@ Procedimiento detallado para realizar movimientos manuales, especificando como c
 
 En caunto al control manual, este puede realizar de forma local o remota, siendo de forma remota mediante softwares como RoboDK y de froma local mediante el teachpendant de su unidad de control
 
+
+<div align="center">
+  <img src="./Fotos/teach0.PNG" width="400" title="preview">
+  <p>Figura 6. TeachPendant Motoman MH6.</p>
+</div>
+
 <div align="center">
   <img src="./Fotos/teach1.jpeg" width="400" title="preview">
-  <p>Figura 6. Pantalla TeachPendant Motoman MH6.</p>
+  <p>Figura 7. Pantalla TeachPendant Motoman MH6.</p>
 </div>
 
 <div align="center">
   <img src="./Fotos/teach2.jpeg" width="400" title="preview">
-  <p>Figura 7. Teclado TeachPendant Motoman MH6.</p>
+  <p>Figura 8. Teclado TeachPendant Motoman MH6.</p>
+</div>
+
+<div align="center">
+  <img src="./Fotos/teach4.jpeg" width="400" title="preview">
+  <p>Figura 9. Teclado TeachPendant Motoman MH6.</p>
+</div>
+
+<div align="center">
+  <img src="./Fotos/teach5.jpeg" width="400" title="preview">
+  <p>Figura 10. Articualciones Motoman MH6 [1].</p>
 </div>
 
 <div align="center">
   <img src="./Fotos/Art.PNG" width="400" title="preview">
-  <p>Figura 8. Articualciones Motoman MH6 [1].</p>
+  <p>Figura 9. Articualciones Motoman MH6 [1].</p>
 </div>
 
 
