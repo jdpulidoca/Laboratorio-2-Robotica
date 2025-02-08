@@ -140,6 +140,9 @@ La trayectoria de la curva polar elegida se programó en un script de Python (an
 
 # Referencias
 [1] Yaskawa. MOTOMAN-MH6 INSTRUCTIONS. 2009. Consultado el 6 de Febrero de 2025. [En linea]: http://www.wtech.com.tw/public/download/manual/yaskawa/YASKAWA%20MH6%20Instructions.pdf
+
 [2] Yaskawa. MotoSim EG-VRC Ver 5.00 OPERATION MANUAL FOR WINDOWS. Consultado el 6 de Febrero de 2025. [En linea]: https://info.ammc.com/hubfs/Partner%20Documents/Yaskawa%20Motoman%20Robots/MotoSim%20VRC%205.0%20Manual.pdf
+
 [3] Yaskawa. Manuel d’instructions REFERENCIA PARA Tabla de instrucciones básicas Programación y reproducción simplificadas Listado de alarmas DX100. Consultado el 6 de Febrero de 2025. [En linea]:https://www.infoplc.net/files/descargas/yaskawa_motoman/infoPLC_net_Programacion_Basica_DX100.pdf
+
 [4] ABB. Especificaciones del producto IRB 140. 2020. Consultado el 6 de Febrero de 2025. [En linea]: https://library.e.abb.com/public/84e6cb203eef4658839e7cf66e8eaf71/3HAC041346%20PS%20IRB%20140-es.pdf?x-sign=ImRvOsT2Jz0WrduLX2Ku7h+p8psQ+kwuvQhn/UcW7RoyrJUh8FyguShi/V3lJkkI
