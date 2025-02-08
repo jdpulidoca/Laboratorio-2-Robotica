@@ -72,7 +72,7 @@ En cuanto a la mejor posoción de home, ésta dependerá de lo que se quiera rea
 
 Procedimiento detallado para realizar movimientos manuales, especificando como cambiar entre modos de operacion (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
 
-En caunto al control manual, este puede realizar de forma local o remota, siendo de forma remota mediante softwares como RoboDK y de froma local mediante el teachpendant de su unidad de control. En primera instacia, en la esquina superior izquierda del Teachpendant esta la llave (ver figura 7) donde se puede seleccionar el modo de operacion del robot sieno estos modos:
+Acerca del control manual, éste puede realizar de forma local o remota, siendo la forma remota mediante software como RoboDK y de forma local mediante el Teach Pendant de su correspondiente unidad de control. Primeramente, en la esquina superior izquierda del Teach Pendant se encuentra la llave (ver figura 7), en donde se puede seleccionar el modo de operación del robot. Los modos de operación posible son:
 
 <ul>  
 <li> Remote: Permite control el Motoman desde equipos remotos.
@@ -90,7 +90,7 @@ En caunto al control manual, este puede realizar de forma local o remota, siendo
   <p>Figura 7. Llave Modo de operacion.</p>
 </div>
 
-Se selecciona el modo Teach para poder realizar el control manual. En la figura 9, podemos ver resaltados 2 iconos en la esquina superior derecha, estos corresponde al sistema de referencia y la velocidad del Motoman.
+Se selecciona el modo Teach para poder realizar el control manual. En la figura 9, se observan resaltados 2 iconos en la esquina superior derecha, éstos corresponden al sistema de referencia y a la velocidad del Motoman.
 
 <div align="center">
   <img src="./Fotos/teach1.jpeg" width="400" title="preview">
@@ -102,7 +102,7 @@ Se selecciona el modo Teach para poder realizar el control manual. En la figura 
   <p>Figura 9. Iconos TeachPendant Motoman MH6.</p>
 </div>
 
-En primer instancia, elegimos el sistemas de coordenadas con el cual se quiera trabajar. El Motoman nos ofrece los siguientes marcos de referencias:
+En primera instancia, se elige el sistema de coordenadas con el cual se desee trabajar. El Motoman ofrece la opción de seleccionar alguno los siguientes marcos de referencia:
 
 <ul>  
 <li> Joint Coordinates: Se basa en los ángulos individuales de cada articulación del robot, cada eje del robot tiene un valor en grados, y es útil para movimientos punto a punto (PTP) donde se necesita mover cada articulación de forma independiente.
