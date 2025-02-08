@@ -163,14 +163,14 @@ Independendiente del sistema de coordenadas, el Teachpendant dispone de un juego
   <p>Figura 15. Controles Movimiento.</p>
 </div>
 
-En acaso de trabajar moviemiento de articulaciones o Joint Coordinates, cada para de botones correspondara con el movimiento articular de cada servomotor segun la convencion dada por Yaskawa (ver figura 16). En donde, la letra asignada a cada articulacion esta escrita en la parte inferior del boton en letras pequeñas, junto a su respectivo sentido de giro. Cabe señalara que se dispone de 2 pares adicionales de botones de control, estos poseen una forma circular, los denominados E corresponde a linaea sobre la cual se desplaza todo el Motoman y los denominados 8, corresponde aun ejer de articulacion adicional que se puede configurar ya sea en el manipulador o en un mecanismo auxiliar.
+En caso de trabajar con el movimiento de articulaciones o Joint Coordinates, cada par de botones corresponderá al movimiento articular de cada servomotor según la convención dada por Yaskawa (ver figura 16). La letra asignada a cada articulación está escrita en la parte inferior del botón en letras pequeñas, junto a su respectivo sentido de giro. Cabe señalar que se dispone de dos pares adicionales de botones de control. Estos poseen una forma circular: los denominados E corresponden a la línea sobre la cual se desplaza todo el Motoman, y los denominados 8 corresponden a un eje de articulación adicional que se puede configurar, ya sea en el manipulador o en un mecanismo auxiliar.
 
 <div align="center">
   <img src="./Fotos/Art.PNG" width="400" title="preview">
-  <p>Figura 16. Articulaciones Motoman MH6 [1].</p>
+  <p>Figura 16. Articulaciones del Motoman MH6 [1].</p>
 </div>
 
-En el caso de trabajar con el moviemiento de la herramienta o Cartesian Coordinates, los botones de articulacines pasan a ser de movimiento atranslaciones y rotacion entorno al sistemas de cordenadas XYZ. Los botones de movimiento translacional estan al aldo izquierdo del Taecahpendant, estos botones tienen escrito con letras grandes, el correspondiente eje coordenado y si da incremento o decremento, en la parte superior del boton. Los botones de movimiento rotacion estan al aldo derecho del Taecahpendant, estos botones tienen tiene la misma escritura que los cartesianos sobre los botones, con la difrencia que encima de las lestras hay una fecha que indica la direccion de giro.
+En el caso de trabajar con el movimiento de la herramienta o Cartesian Coordinates, los botones de articulaciones pasan a controlar movimientos de traslación y rotación en torno al sistema de coordenadas XYZ. Los botones de movimiento traslacional están al lado izquierdo del Teach Pendant. Estos botones tienen escrito en letras grandes el eje de coordenadas correspondiente y, en la parte superior, indican si generan un incremento o decremento. Los botones de movimiento rotacional están al lado derecho del Teach Pendant. Tienen la misma escritura que los botones cartesianos, con la diferencia de que, encima de las letras, hay una flecha que indica la dirección de giro.
 
 ## Principales funcionalidades de RoboDK
 
