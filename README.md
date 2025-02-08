@@ -59,7 +59,7 @@ En las figuras 3 y 4 se describen las posiciones de Home1 y Home2 dispuestas par
 |	Eje 5 (Muñeca flexión B)	|	0°	|-0.1468°|	50°	| 51.7618°|
 |	Eje 6 (Muñeca giro T)	|	0°	|-3.2709°|	0°	|-3.2709°|
 
-En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realizar. Si se quiere transportar o mover el equipo, la propia empresa recomienda la posicion de Home2 ya que en esta poscion el manipulador ocupara el minimo espacio posible ademas de que su centro de mas se desplaza a la base del bot, lo que facilita su translado, ademas de que su posicion, ademas permite acceder y manipular la herramienta del manipulador de forma optima para le operario. En cuanto a la posicion Home1, es ideal para que un operacion de cualquier rutina ya que parte de que todor los actuadores tienen un giro de 0°.
+En cuanto a la mejor posoción de home, ésta dependerá de lo que se quiera realizar. Si lo que se quiere transportar o mover el equipo, la propia empresa recomienda la posicion de Home2, ésto se debe a que en esta poscion el manipulador ocupará el mínimo espacio posible, además de que su centro de masa se desplaza a la base del robot, lo que facilita su translado. Adicionamente, ésta permite acceder y manipular la herramienta del manipulador de forma óptima para el operario. Respecto a la posicion Home1, ésta es ideal para la operación de rutinas, ya que se parte de que todos los actuadores poseen un giro de 0°.
 
 <div align="center">
   <img src="./Fotos/Trans.PNG" width="400" title="preview">
