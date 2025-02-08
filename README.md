@@ -74,9 +74,7 @@ En cuanto a la mejor posoción de home, ésta dependerá de lo que se quiera rea
 
 ## Uso del TeachPendant del Motoman MH6
 
-Procedimiento detallado para realizar movimientos manuales, especificando como cambiar entre modos de operacion (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
-
-Acerca del control manual, éste puede realizar de forma local o remota, siendo la forma remota mediante software como RoboDK y de forma local mediante el Teach Pendant de su correspondiente unidad de control. Primeramente, en la esquina superior izquierda del Teach Pendant se encuentra la llave (ver figura 7), en donde se puede seleccionar el modo de operación del robot. Los modos de operación posible son:
+El control manual del robot puede realizar de forma local o remota, siendo la forma remota mediante software como RoboDK y de forma local mediante el Teach Pendant de su correspondiente unidad de control. Primeramente, en la esquina superior izquierda del Teach Pendant se encuentra la llave (ver figura 7), en donde se puede seleccionar el modo de operación del robot. Los modos de operación posible son:
 
 <ul>  
 <li> Remote: Permite control el Motoman desde equipos remotos.
