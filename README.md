@@ -102,6 +102,30 @@ Se selecciona el modo Teach para poder realizar el control manual. En la figura 
   <p>Figura 9. Iconos TeachPendant Motoman MH6.</p>
 </div>
 
+En primer instancia, elegimos el sistemas de coordenadas con el cual se quiera trabajar. El Motoman nos ofrece los siguientes marcos de referencias:
+
+<ul>  
+<li> Joint Coordinates: Se basa en los ángulos individuales de cada articulación del robot, cada eje del robot tiene un valor en grados, y es útil para movimientos punto a punto (PTP) donde se necesita mover cada articulación de forma independiente.
+<li> Cartesian Coordinates:Se basa en un sistema X, Y, Z con orientación Rx, Ry, Rz (roll, pitch, yaw), define la posición del centro de la herramienta (TCP) en el espacio 3D, y es util para definir trayectorias rectas o en espacios de trabajo definidos.
+<li> Cylindrical Coordinates: similar a las coordenadas cartesianas, pero usa: R (Radio) como la distancia desde el eje base del robot, θ (Theta) como el angulo de rotación respecto al eje base, y Z como la altura en el eje vertical. Se usa para movimientos en trayectorias circulares.
+<li> Tool Coordinates: Define la posición y orientación de la herramienta (TCP) en relación con el flanche del robot y permite programar trayectorias considerando la punta de la herramienta en lugar del flange.
+<li> User Coordinates: Permite definir un sistema de coordenadas personalizado en lugar del sistema base del robot.
+</ul>
+
+<div align="center">
+  <img src="./Fotos/siscor.PNG" width="400" title="preview">
+  <p>Figura 10. Sistemas de Coordenadas disponibles y sus iconos.</p>
+</div>
+
+Para realizar el cambio de sistemas de coordenadas, se hace con el boton Coord (figura 11) el cual esta debajo de la pantalla del Teachpendant. Este se debe presionar de forma constante hasta que el icono que aparezca en pantalla sea el requerido.
+
+<div align="center">
+  <img src="./Fotos/teach6.PNG" width="400" title="preview">
+  <p>Figura 11. Boton Coord .</p>
+</div>
+
+
+
 <div align="center">
   <img src="./Fotos/teach2.jpeg" width="400" title="preview">
   <p>Figura 9. Teclado TeachPendant Motoman MH6.</p>
