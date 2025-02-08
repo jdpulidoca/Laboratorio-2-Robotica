@@ -106,8 +106,8 @@ En primer instancia, elegimos el sistemas de coordenadas con el cual se quiera t
 
 <ul>  
 <li> Joint Coordinates: Se basa en los ángulos individuales de cada articulación del robot, cada eje del robot tiene un valor en grados, y es útil para movimientos punto a punto (PTP) donde se necesita mover cada articulación de forma independiente.
-<li> Cartesian Coordinates:Se basa en un sistema X, Y, Z con orientación Rx, Ry, Rz (roll, pitch, yaw), define la posición del centro de la herramienta (TCP) en el espacio 3D, y es util para definir trayectorias rectas o en espacios de trabajo definidos.
-<li> Cylindrical Coordinates: similar a las coordenadas cartesianas, pero usa: R (Radio) como la distancia desde el eje base del robot, θ (Theta) como el angulo de rotación respecto al eje base, y Z como la altura en el eje vertical. Se usa para movimientos en trayectorias circulares.
+<li> Cartesian Coordinates: Se basa en un sistema X, Y, Z con orientación Rx, Ry, Rz (roll, pitch, yaw), define la posición del centro de la herramienta (TCP) en el espacio 3D, y es util para definir trayectorias rectas o en espacios de trabajo definidos.
+<li> Cylindrical Coordinates: Similar a las coordenadas cartesianas, pero usa: R (Radio) como la distancia desde el eje base del robot, θ (Theta) como el angulo de rotación respecto al eje base, y Z como la altura en el eje vertical. Se usa para movimientos en trayectorias circulares.
 <li> Tool Coordinates: Define la posición y orientación de la herramienta (TCP) en relación con el flanche del robot y permite programar trayectorias considerando la punta de la herramienta en lugar del flange.
 <li> User Coordinates: Permite definir un sistema de coordenadas personalizado en lugar del sistema base del robot.
 </ul>
@@ -124,18 +124,41 @@ Para realizar el cambio de sistemas de coordenadas, se hace con el boton Coord (
   <p>Figura 11. Boton Coord .</p>
 </div>
 
+En cuanto a la velocidad de movimiento, su icono aparece al lado del de sistema de coordenadas del Teachpendant. El Motoman ofrece la siguienets velocidades:
 
+<ul>  
+<li> Inching: Se usa para mover el robot en pequeñas cantidades manualmente. Generalmente, permite movimientos de 0.1° a 1° por pulsación. Es útil para ajustes finos en posiciones críticas.
+<li> Low Speed: El robot se mueve a velocidades seguras y controladas, esta en un rango de 1% a 10% de la velocidad máxima.
+<li> Medium Speed: Velocidad moderada que permite un balance entre precisión y rapidez. Puede estar en el rango de 10% a 50% de la velocidad máxima.
+<li> High Speed: Velocidad máxima del robot dependiendo de la configuración y limitaciones, se usa solo en modo automático (Auto Mode) cuando el robot está en producción. Puede alcanzar hasta 100% de la velocidad programada.
+</ul>
+
+
+<div align="center">
+  <img src="./Fotos/sped.PNG" width="400" title="preview">
+  <p>Figura 12. Niveles de velocidad y sus iconos.</p>
+</div>
+
+Para realizar el cambio de velocidades, se hace con los botones Fast y Slow (figura 13) en la mitad del del Teachpendant. Fast eleva el nivel de velocidad y Slow la disminuye, este cambio se ve reflejado en los iconos de la pantalla.
+
+<div align="center">
+  <img src="./Fotos/teach7.jpg" width="400" title="preview">
+  <p>Figura 13. Botones Fast/Slow.</p>
+</div>
+
+Para realizar el movimiento del robot se debe elegir alguno de los sistemas de coordenadas y la velocidad. Ademas, revisar que el boton de emercgencia este desactivido y el operario este accionando el boton de hombre muerto en el Teachpendant. 
+
+
+En caso de trabajar con el sistemas de Coordenadas de la articulacion o Joint, el Teachpendant dispone de un juego de botones (figura 14) para el increemento y decremento de cada articulacion, correspondiendo con las articulaciones de la figura 15. Cada boton pos
 
 <div align="center">
   <img src="./Fotos/teach2.jpeg" width="400" title="preview">
-  <p>Figura 9. Teclado TeachPendant Motoman MH6.</p>
+  <p>Figura 14. Controles Joint Coordinates.</p>
 </div>
-
-
 
 <div align="center">
   <img src="./Fotos/Art.PNG" width="400" title="preview">
-  <p>Figura 9. Articualciones Motoman MH6 [1].</p>
+  <p>Figura 15. Articulaciones Motoman MH6 [1].</p>
 </div>
 
 
