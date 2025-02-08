@@ -1,5 +1,9 @@
 # Laboratorio 2: Análisis y operación del manipulador Motoman MH6: Comparativa y aplicaciones prácticas.
 
+### Integrantes
+#### Julian David Pulido Castañeda
+#### Omar Armando Pérez Ospino
+
 A continuación, se presenta el trabajo realizado para el laboratorio número 2 de la materia Robótica de la Univeridad Nacional de Colombia para el periodo 2024-II.
 
 ### Motoman MH6 VS IRB 140
