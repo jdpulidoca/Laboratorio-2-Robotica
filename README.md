@@ -94,7 +94,7 @@ Procedimiento detallado para realizar movimientos manuales, especificando como c
 Para poder correr scripts realizados en un proyecto de RoboDK, se debe hacer click en Connect > Connect Robot. Posteriormente se abrirá una visa en donde se debe colocar la dirección IP de la red del robot y su puerto. Finalmente se debe hacer click en el botón Connect, y cuando la conexión se haya establecido, se mostrará un cuadro verde que mostrara la palabra Ready. Este proceso se ilustra en la figura 5.
 
 <div align="center">
-  <img src="./Fotos/connect_robot.png" width="600" title="preview">
+  <img src="./Fotos/connect_robot.png" width="500" title="preview">
   <p>Figura 5. Proceso de conexión de RoboDK con el robot.</p>
 </div>
 
@@ -126,7 +126,7 @@ Donde el valor de $\theta$ irá desde $0$ hasta $2 \pi$, para formar la curva de
 
 
 <div align="center">
-  <img src="./Fotos/polar_curve.png" width="600" title="preview">
+  <img src="./Fotos/polar_curve.png" width="400" title="preview">
   <p>Figura 6. Gráfica de la trayectoria polar que realizará el efector final.</p>
 </div>
 
