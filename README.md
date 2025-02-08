@@ -72,14 +72,21 @@ En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realiz
 
 Procedimiento detallado para realizar movimientos manuales, especificando como cambiar entre modos de operacion (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
 
+En caunto al control manual, este puede realizar de forma local o remota, siendo de forma remota mediante softwares como RoboDK y de froma local mediante el teachpendant de su unidad de control
+
+<div align="center">
+  <img src="./Fotos/teach1.jpeg" width="400" title="preview">
+  <p>Figura 6. Pantalla TeachPendant Motoman MH6.</p>
+</div>
+
 <div align="center">
   <img src="./Fotos/teach2.jpeg" width="400" title="preview">
-  <p>Figura 6. TeachPendant Motoman MH6.</p>
+  <p>Figura 7. Teclado TeachPendant Motoman MH6.</p>
 </div>
 
 <div align="center">
   <img src="./Fotos/Art.PNG" width="400" title="preview">
-  <p>Figura 7. Articualciones Motoman MH6 [1].</p>
+  <p>Figura 8. Articualciones Motoman MH6 [1].</p>
 </div>
 
 
@@ -138,7 +145,7 @@ Donde el valor de $\theta$ irá desde $0$ hasta $2 \pi$, para formar la curva de
 
 <div align="center">
   <img src="./Fotos/polar_curve.png" width="400" title="preview">
-  <p>Figura 6. Gráfica de la trayectoria polar que realizará el efector final.</p>
+  <p>Figura 9. Gráfica de la trayectoria polar que realizará el efector final.</p>
 </div>
 
 
@@ -158,3 +165,6 @@ La trayectoria de la curva polar elegida se programó en un script de Python (an
 [3] Yaskawa. Manuel d’instructions REFERENCIA PARA Tabla de instrucciones básicas Programación y reproducción simplificadas Listado de alarmas DX100. Consultado el 6 de Febrero de 2025. [En linea]:https://www.infoplc.net/files/descargas/yaskawa_motoman/infoPLC_net_Programacion_Basica_DX100.pdf
 
 [4] ABB. Especificaciones del producto IRB 140. 2020. Consultado el 6 de Febrero de 2025. [En linea]: https://library.e.abb.com/public/84e6cb203eef4658839e7cf66e8eaf71/3HAC041346%20PS%20IRB%20140-es.pdf?x-sign=ImRvOsT2Jz0WrduLX2Ku7h+p8psQ+kwuvQhn/UcW7RoyrJUh8FyguShi/V3lJkkI
+
+[5] Ricardo E. Ramirez, Dr.-Ing. Pedro F. Cardenas, Ph.D. Programación y Operación Básica Teach Pendant DX 100 Manipulador Motoman MH6. Fundamentos de Robotica industrial. Consultado el 6 de Febrero de 2025.
+
