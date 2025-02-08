@@ -63,7 +63,7 @@ En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realiz
 
 <div align="center">
   <img src="./Fotos/Trans.PNG" width="400" title="preview">
-  <p>Figura 5. Recomedacion de transporte Motoman MH6.</p>
+  <p>Figura 5. Recomedacion de transporte Motoman MH6 [1].</p>
 </div>
 
 
@@ -74,14 +74,18 @@ Procedimiento detallado para realizar movimientos manuales, especificando como c
 
 <div align="center">
   <img src="./Fotos/teach2.jpeg" width="400" title="preview">
-  <p>Figura 4. TeachPendant Motoman MH6.</p>
+  <p>Figura 6. TeachPendant Motoman MH6.</p>
 </div>
+
+<div align="center">
+  <img src="./Fotos/Art.PNG" width="400" title="preview">
+  <p>Figura 7. Articualciones Motoman MH6 [1].</p>
+</div>
+
 
 <ul>  
 
 <li> Explicacion completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y como identificar el nivel establecido en la interfaz del robot.
-<li> Codigo desarrollado en RoboDK para ejecutar una trayectoria polar, adjuntado como anexo dentro del repositorio.
-<li> Video de simulacion en RoboDK mostrando la trayectoria polar y evidencia de su implementaci´on en el manipulador Motoman de forma fısica, controlado desde el PC.
 </ul>
 
 ## Principales funcionalidades de RoboDK
