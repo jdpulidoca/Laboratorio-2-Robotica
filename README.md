@@ -16,14 +16,14 @@ A continuación, se presenta el trabajo realizado para el laboratorio número 2 
 |	Repetibilidad	|	±0.08 mm	|	±0.01 mm	|
 |	Peso del robot	|	130 kg	|	98 kg	|
 |	Número de ejes (Grados de libertad)	|	6	|	6	|
-|	Rango de movimiento	|	---	| ---	|
+|	**Rango de movimiento**	|	---	| ---	|
 |	Eje 1 (Base S)	|	±170°	|	±165°	|
 |	Eje 2 (Brazo inferior L)	|	+155°/-90°	|	+110°/-110°	|
 |	Eje 3 (Brazo superior V)	|	+250° /-175°	|	+70° /-160°	|
 |	Eje 4 (Muñeca rotación R)	|	±190°	|	±200°	|
 |	Eje 5 (Muñeca flexión B)	|	±135°	|	±115°	|
 |	Eje 6 (Muñeca giro T)	|	±360°	|	±400°	|
-|	Velocidad máxima por eje	| ---	|	---	|
+|	**Velocidad máxima por eje**	| ---	|	---	|
 |	Eje 1	|	180°/s	|	150°/s	|
 |	Eje 2	|	180°/s	|	120°/s	|
 |	Eje 3	|	180°/s	|	140°/s	|
