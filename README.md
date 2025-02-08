@@ -59,14 +59,14 @@ En las figuras 3 y 4 se describen las posiciones de Home1 y Home2 dispuestas par
 |	Eje 5 (Muñeca flexión B)	|	0°	|-0.1468°|	50°	| 51.7618°|
 |	Eje 6 (Muñeca giro T)	|	0°	|-3.2709°|	0°	|-3.2709°|
 
-En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realizar. Si se quiere transportar o mover el equipo, la propia empresa recomienda la posicion de Home2 ya que en esta poscion el manipulador ocupara el minimo espacio posible ademas de que su centro de mas se desplaza a la base del bot, lo que facilita su translado. En cuanto a la psocion Home1, es ideal para que un operacion pueda acceder y manipular la herramienta del manipulador, ademas de ser un punto de incio para cualquier rutina ya que parte de que todor los actuadores tienen un giro de 0°.
+En cuanto a la mejor posocion de home, esta dependera de lo que se quiera realizar. Si se quiere transportar o mover el equipo, la propia empresa recomienda la posicion de Home2 ya que en esta poscion el manipulador ocupara el minimo espacio posible ademas de que su centro de mas se desplaza a la base del bot, lo que facilita su translado, ademas de que su posicion permite acceder y manipular la herramienta del manipulador de forma optima para le operario. En cuanto a la psocion Home1, es ideal para que un operacion de cualquier rutina ya que parte de que todor los actuadores tienen un giro de 0°.
 
+## Uso del TeachPendant del Motoman MH6
 
+Procedimiento detallado para realizar movimientos manuales, especificando como cambiar entre modos de operacion (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
 <ul>  
-<li> Procedimiento detallado para realizar movimientos manuales, especificando como cambiar entre modos de operacion (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
+
 <li> Explicacion completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y como identificar el nivel establecido en la interfaz del robot.
-<li> Descripcion de las principales funcionalidades de RoboDK, explicando como se comunica con el manipulador Motoman y que procesos realiza para ejecutar movimientos.
-<li> Analisis comparativo entre RoboDK y RobotStudio, destacando ventajas, limitaciones y aplicaciones de cada herramienta.
 <li> Codigo desarrollado en RoboDK para ejecutar una trayectoria polar, adjuntado como anexo dentro del repositorio.
 <li> Video de simulacion en RoboDK mostrando la trayectoria polar y evidencia de su implementaci´on en el manipulador Motoman de forma fısica, controlado desde el PC.
 </ul>
