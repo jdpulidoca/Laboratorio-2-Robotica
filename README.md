@@ -129,3 +129,9 @@ Donde el valor de $\theta$ irá desde $0$ hasta $2 \pi$, para formar la curva de
   <img src="./Fotos/polar_curve.png" width="600" title="preview">
   <p>Figura 6. Gráfica de la trayectoria polar que realizará el efector final.</p>
 </div>
+
+
+## Simulación e implementación en el manipulador
+
+La trayectoria de la curva polar elegida se programó en un script de Python (anexado al repositorio como [FigPolar.py](anexos/FigPolar.py)), se simuló en RoboDK (la simulación se encuentra en el proyecto [Lab2Motoman.dk](anexos/Lab2Motoman.dk) y se implemetó en el manipulador real. En el siguiente video se encuentra la simulación y la implementación de la trayectoria.
+
