@@ -227,7 +227,8 @@ La trayectoria de la curva polar elegida se programó en un script de Python (an
 
 
 <a href="https://www.youtube.com/watch?v=hJDKHYDrqE4"><img src="Videos/youtube.gif"> </a>
-[link](https://www.youtube.com/watch?v=hJDKHYDrqE4)
+[link video](https://www.youtube.com/watch?v=hJDKHYDrqE4)
+[link video de implementación en tiempo real](https://www.youtube.com/watch?v=aR1bbZq4Tyg) 
 
 # Referencias
 [1] Yaskawa. MOTOMAN-MH6 INSTRUCTIONS. 2009. Consultado el 6 de Febrero de 2025. [En linea]: http://www.wtech.com.tw/public/download/manual/yaskawa/YASKAWA%20MH6%20Instructions.pdf
